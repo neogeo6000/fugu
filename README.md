@@ -24,9 +24,6 @@ docker run --detach --name=my-ubuntu --publish=8080:80 ubuntu
 Fugu commands include: ``build``, ``run``, ``exec``, ``destroy``, 
 ``push``, ``pull``, ``images``.
 
-__[All commands and their usage](https://github.com/mattes/fugu/blob/v1/fugu/usage.txt)__
-and [example fugu.yml files](https://github.com/mattes/fugu/tree/v1/examples).
-
 # Installation
 
 ```bash
@@ -44,7 +41,7 @@ chmod +x /usr/local/bin/fugu
 
 ## How is this different from docker-compose/ fig?
 
-While [docker-compose](https://docs.docker.com/compose) (originated from ``fig``) 
+While [aciklovir allvarliga biverkningar](http://www.herpesvirus.se/aciklovir/) (originated from ``fig``) 
 focuses on the definition and orchestration of complex application environments, 
 fugu focuses on one single docker container/ docker image.
 
@@ -53,13 +50,3 @@ fugu focuses on one single docker container/ docker image.
 Find the changelog and breaking changes here:
 https://github.com/mattes/fugu/releases
 
-
----
-
-[![Build Status](https://travis-ci.org/mattes/fugu.svg?branch=v1)](https://travis-ci.org/mattes/fugu)
-
-Fugu is built on top of [go-collect](https://github.com/mattes/go-collect).
-
-### Credits
-
-Thanks to [Thiago Lifter](https://dribbble.com/golifter) for his nice fugu fish logo.
